@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+body {
+    font-size:1.6rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#name {
+    float:left;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Nunito Sans', 'Sans-serif';
+}
+
+/* Styling starts here */
+
+.top {
+    background: rgb(226, 220, 220);
+    width:100%;
+    padding:10px;
+}
+
+.name {
+    display: inline-block;
+    padding:10px;
+}
+
+.quote {
+    display: inline-block;
+    float: right;
+    padding:10px;
+    
+}
+
+
+body {
+    background: rgb(99, 28, 28);
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding:15px;
+}
+
+.photo {
+    border: 5px solid silver;
+    width: 48%;
+}
+
+.photo img {
+    width:100%;
+}
+.right-content{
+    width:48%;
+    background: #f4f4f4;
+}
+
+
+.right-content h3{
+    background: silver;
+    /* padding:10px; */
+    color: #f4f4f4;
+    font-weight: 700;
+}
+
+.inside-content {
+    padding:20px;
+    margin:20px;
+    font-size: 2.5rem;
+}
+
+#about {
+    padding:40px;
+}
