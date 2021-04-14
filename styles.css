@@ -15,11 +15,6 @@ html{
     font-size: 62.5%;
 }
 
-#name {
-    float:left;
-    display: inline-block;
-}
-
 h1, h2, h3, h4, h5 {
     font-family: 'Nunito Sans', 'Sans-serif';
 }
@@ -38,10 +33,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .quote {
-    display: inline-block;
-    float: right;
     padding:10px;
-    
+    float: right;
 }
 
 
@@ -85,3 +78,59 @@ body {
 #about {
     padding:40px;
 }
+
+h3 {
+    background: silver;
+    color: #f4f4f4;
+    padding:10px;
+    font-weight: bold;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    width:31%;
+}
+
+p{
+    padding:20px;
+}
+
+.box1 p, .tech{
+    background: whitesmoke;
+}
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.tech img {
+    width:17%;
+    flex-wrap: wrap;
+    padding:18px;
+}
+
+.big-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.holder {
+    background: whitesmoke;
+}
+
+button {
+    background-color: green;
+	color:white;
+	border:solid 1px black;
+	border-radius: 10px;
+	padding:5px;
+	margin: 10px 260px;
+	font-weight: 900;
+}
+
+
+
